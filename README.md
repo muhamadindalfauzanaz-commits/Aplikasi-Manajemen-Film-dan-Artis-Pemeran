@@ -9,7 +9,7 @@ Aplikasi Manajemen Film dan Artis berbasis C++ dengan struktur data Multi Linked
 
 # Aplikasi Manajemen Film dan Artis Pemeran
 
-Aplikasi Manajemen Film dan Artis merupakan aplikasi berbasis bahasa C++ yang dirancang untuk mengelola data film beserta artis yang terlibat di dalamnya secara terstruktur dan efisien dengan memanfaatkan struktur data Multi Linked List.
+Aplikasi Manajemen Film dan Artis merupakan aplikasi berbasis bahasa C++ yang dirancang untuk mengelola data film beserta artis yang terlibat di dalamnya secara terstruktur dan efisien dengan memanfaatkan struktur data Multi Linked List (dibuat dan disimpan secara eksklusif di dalam sub-list milik satu Film tertentu).
 
 ---
 
@@ -77,7 +77,7 @@ Relasi yang digunakan adalah One-to-Many, di mana satu Film dapat memiliki banya
 
 ### Relasi
 - One-to-Many (1:N)  
-  Satu Film dapat memiliki banyak Artis, sedangkan satu Artis hanya dimiliki oleh satu Film.
+  Satu Film dapat memiliki banyak Artis, sedangkan satu Artis hanya dimiliki oleh satu Film. Dimana Artis direpresentasikan sebagai node child yang dibuat dan disimpan secara eksklusif di dalam sub-list milik satu Film tertentu, terikat langsung pada satu parent Film dalam struktur Multi Linked List, serta tidak dikelola sebagai entitas global.
 
 ---
 

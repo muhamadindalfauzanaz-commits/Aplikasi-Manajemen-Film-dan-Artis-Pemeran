@@ -87,6 +87,9 @@ Relasi yang digunakan adalah One-to-Many, di mana satu Film dapat memiliki banya
 ---
 
 ## Struktur File
+main.cpp  : Berisi fungsi main() dan logika utama program, termasuk menu dan pemanggilan seluruh fitur aplikasi.
+MLL.cpp   : Berisi implementasi struktur data Multi Linked List serta fungsi-fungsi untuk mengelola data Film dan Artis.
+MLL.h     : Berisi deklarasi struktur data, tipe data, dan prototype fungsi yang digunakan di MLL.cpp dan dipanggil oleh main.cpp.
 
 ---
 

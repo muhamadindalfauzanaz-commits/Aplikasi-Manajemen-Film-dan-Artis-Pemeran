@@ -1,4 +1,4 @@
-# Aplikasi-Manajemen-Film-dan-Artis-Pemeran
+# Aplikasi Manajemen Film dan Artis Pemeran
 Aplikasi Manajemen Film dan Artis merupakan aplikasi berbasis bahasa C++ yang dirancang untuk mengelola data film beserta artis yang terlibat di dalamnya dengan struktur data Multi Linked List (Parent–Child) yang mendukung CRUD, traversal, pencarian, dan complex query.
 
 ![Language](https://img.shields.io/badge/Language-C%2B%2B-blue)
